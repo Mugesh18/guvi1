@@ -13,7 +13,7 @@ public static void main(String[] args) {
 	int k1=k*-1;
 	for(int i=0;i<n;i++)
 	{
-		for(int j=0;j<n;j++)
+		for(int j=i+1;j<n;j++)
 		{
 			 int diff=Math.abs(a[i]-a[j]);
 			if(diff==k || diff==k1)
