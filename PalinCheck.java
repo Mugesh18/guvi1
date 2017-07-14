@@ -1,3 +1,4 @@
+package guvi;
 import java.util.Scanner;
 public class PalinCheck {
 public static void main(String[] args) {
