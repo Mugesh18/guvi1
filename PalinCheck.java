@@ -10,14 +10,22 @@ public static void main(String[] args) {
 			System.out.println(s+" is a Palindrome");
 			break;
 		}
-		else{
+		else
+		{
 		String s1=s.substring(0,i)+s.substring(i+1,s.length());
 		String s2=new StringBuffer(s1).reverse().toString();
 		if(s1.equalsIgnoreCase(s2))
 		{
 			System.out.print(s1+" Is a palindrome\n");
 			System.out.println("index Value is : "+i+"\nIndex Letter is : "+s.charAt(i));
+			
 		}
+		else
+		{
+			System.out.println("Not a Palindrome");
+			break;
+		}
+		
 		}
 		
 	}
