@@ -8,8 +8,6 @@ public class Hunter80 {
 	System.out.println("Enter the Value to validate : ");
 	String n=sc.nextLine();
 	int len=n.length();
-	System.out.println("Enter the value to find upto which number : ");
-	int s=sc.nextInt();
 	int a=Integer.parseInt(n);
 	int count=0;
 	int d=0;
