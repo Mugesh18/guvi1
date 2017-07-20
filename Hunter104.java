@@ -7,11 +7,9 @@ public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
 	String s1=sc.nextLine();
 	String s2=sc.nextLine();
-	if(s1.length()>0 && s1.length()<=100 && s1.length()>0 && s1.length()<=100) {
+	if(s1.length()>0 && s1.length()<100 && s2.length()>0 && s2.length()<100) {
 	for(int i=0;i<s1.length();i++) {
-		for(int j=0;j<s2.length();j++) {
-			if(i==j)
-			System.out.println(s2.charAt(j)+""+s1.charAt(i));
+			System.out.println(s2.charAt(i)+""+s1.charAt(i));
 		}
 	}
 	if(s1.length()>s2.length()) {
@@ -24,7 +22,7 @@ public static void main(String[] args) {
 			System.out.println(s2.charAt(i));
 		}
 	}
-	}
+	
 	else
 		System.out.println("It is not under the eligible character defined by the user.");
 	
